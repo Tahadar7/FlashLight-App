@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Torch</string>
+    <string name="turnon">Turn On</string>
+    <string name="main_image">Main Image</string>
+    <string name="main_button">Main button</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="blink_button">Start Blink Button</string>
+    <string name="stop_blink_button">Stop Blink Button</string>
+    <string name="start_blinking">Start Blinking</string>
+    <string name="stop_blinking">Stop Blinking</string>
+</resources>
