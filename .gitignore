@@ -1,0 +1,74 @@
+# Android/IntelliJ/Gradle .gitignore
+
+# Built files
+/build/
+/app/build/
+/*.iml
+.gradle/
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Gradle cache
+**/captures/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Signing files
+*.jks
+*.keystore
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Misc
+*.class
+*.swp
+*.swo
+
+# Exclude auto-generated files
+/captures/
+/output.json
+/.cxx/
+
+# Kotlin specific
+*.kotlin_module
+
+# NDK
+.externalNativeBuild
+
+# Crashlytics and Fabric
+fabric.properties
+
+# Generated files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Ignore lint/intermediate XML files
+lint/intermediates/
+lint/generated/
+
+# VS Code (optional)
+.vscode/
+
+# Git hooks (optional)
+.hooks/
+
+# Ignore lock files
+*.lock
